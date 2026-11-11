@@ -4,30 +4,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospitalised Injuries from Road Crashes</title>
+
+    <meta name="description"
+          content="Explore non-fatal road crash injuries in Australia from 2011 to 2021.">
+
+    <title>Beyond the Road Toll | Australia</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    <header>
-        <h1>Hospitalised Injuries from Road Crashes in Australia</h1>
-        <p>Interactive Data Visualisation Project (2011–2021)</p>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="logo">
+                BEYOND THE ROAD TOLL
+            </a>
+
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#trends" class="nav-link">National Trends</a>
+                <a href="#road-users" class="nav-link">Road Users</a>
+                <a href="#people" class="nav-link">People &amp; Severity</a>
+                <a href="#states" class="nav-link">States</a>
+                <a href="#first-nations" class="nav-link">First Nations</a>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <h2>Welcome to Our Dashboard</h2>
-        <p>
-            This website explores hospitalised injuries resulting
-            from road crashes in Australia between 2011 and 2021.
-        </p>
 
-        <h2>Explore Our Visualisations</h2>
-        <p>
-            Discover patterns in road user groups, age, sex,
-            remoteness and hospital stays.
-        </p>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">
+                    AUSTRALIAN ROAD SAFETY | 2011–2021
+                </p>
+
+                <h1>
+                    Beyond the<br>
+                    <span>Road Toll.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Exploring the hidden impact of non-fatal
+                    road crash injuries across Australia.
+                </p>
+
+                <a href="#trends" class="explore-btn">
+                    Explore the Story
+                    <span aria-hidden="true">↓</span>
+                </a>
+            </div>
+
+            <div class="hero-decoration" aria-hidden="true">
+                <span class="road-line"></span>
+            </div>
+        </section>
+
+        <!-- Q1: NATIONAL TRENDS -->
+        <section id="trends" class="story-section">
+            <div class="section-content reveal">
+                <p class="section-number">
+                    01 / NATIONAL TRENDS
+                </p>
+
+                <h2>
+                    How have road crash injuries
+                    changed over time?
+                </h2>
+
+                <p class="section-description">
+                    Explore annual non-fatal road traffic
+                    hospitalisations in Australia from
+                    2011 to 2021, including changes
+                    during 2020 and 2021.
+                </p>
+            </div>
+
+            <div class="chart-placeholder reveal">
+                <div class="placeholder-content">
+                    <span class="chart-icon" aria-hidden="true">↗</span>
+                    <h3>National Hospitalisation Trends</h3>
+                    <p>Q1 — Interactive line chart coming soon</p>
+                </div>
+            </div>
+
+            <a href="#road-users" class="next-section">
+                NEXT: ROAD USERS
+                <span aria-hidden="true">↓</span>
+            </a>
+        </section>
+
+        <!-- Q2: ROAD USERS -->
+        <section id="road-users" class="story-section alternate">
+            <div class="section-content reveal">
+                <p class="section-number">
+                    02 / ROAD USERS
+                </p>
+
+                <h2>
+                    Which road users are
+                    most affected?
+                </h2>
+
+                <p class="section-description">
+                    Compare changes in hospitalisations
+                    across different road user groups
+                    and examine their contributions
+                    to the national total.
+                </p>
+            </div>
+
+            <div class="chart-placeholder reveal">
+                <div class="placeholder-content">
+                    <span class="chart-icon" aria-hidden="true">▥</span>
+                    <h3>Road User Comparison</h3>
+                    <p>Q2 — Interactive bar chart coming soon</p>
+                </div>
+            </div>
+
+            <a href="#people" class="next-section">
+                NEXT: PEOPLE &amp; SEVERITY
+                <span aria-hidden="true">↓</span>
+            </a>
+        </section>
+
+        <!-- Q3: PEOPLE AND SEVERITY -->
+        <section id="people" class="story-section">
+            <div class="section-content reveal">
+                <p class="section-number">
+                    03 / PEOPLE &amp; SEVERITY
+                </p>
+
+                <h2>
+                    Who experiences the
+                    greatest injury burden?
+                </h2>
+
+                <p class="section-description">
+                    Explore hospitalisation differences
+                    by age group and sex, and compare
+                    average hospital stays across
+                    age groups and road users.
+                </p>
+            </div>
+
+            <div class="chart-placeholder reveal">
+                <div class="placeholder-content">
+                    <span class="chart-icon" aria-hidden="true">▥</span>
+                    <h3>Age, Sex &amp; Hospital Stays</h3>
+                    <p>Q3 — Interactive charts coming soon</p>
+                </div>
+            </div>
+
+            <a href="#states" class="next-section">
+                NEXT: STATES &amp; TERRITORIES
+                <span aria-hidden="true">↓</span>
+            </a>
+        </section>
+
+        <!-- Q4: STATES AND TERRITORIES -->
+        <section id="states" class="story-section alternate">
+            <div class="section-content reveal">
+                <p class="section-number">
+                    04 / STATES &amp; TERRITORIES
+                </p>
+
+                <h2>
+                    How does the picture
+                    differ across Australia?
+                </h2>
+
+                <p class="section-description">
+                    Compare hospitalisation changes
+                    across Australian states and
+                    territories from 2013 to 2021,
+                    including differences in road
+                    user groups.
+                </p>
+            </div>
+
+            <div class="chart-placeholder reveal">
+                <div class="placeholder-content">
+                    <span class="chart-icon" aria-hidden="true">↗</span>
+                    <h3>State &amp; Territory Comparison</h3>
+                    <p>Q4 — Interactive chart coming soon</p>
+                </div>
+            </div>
+
+            <a href="#first-nations" class="next-section">
+                NEXT: FIRST NATIONS PEOPLE
+                <span aria-hidden="true">↓</span>
+            </a>
+        </section>
+
+        <!-- Q5: FIRST NATIONS PEOPLE -->
+        <section id="first-nations" class="story-section">
+            <div class="section-content reveal">
+                <p class="section-number">
+                    05 / FIRST NATIONS PEOPLE
+                </p>
+
+                <h2>
+                    What patterns appear
+                    in the available data?
+                </h2>
+
+                <p class="section-description">
+                    Explore hospitalisation patterns
+                    among First Nations people,
+                    including differences by
+                    remoteness and road user group,
+                    while recognising suppressed data
+                    and reporting limitations.
+                </p>
+            </div>
+
+            <div class="chart-placeholder reveal">
+                <div class="placeholder-content">
+                    <span class="chart-icon" aria-hidden="true">▥</span>
+                    <h3>First Nations Hospitalisation Patterns</h3>
+                    <p>Q5 — Interactive chart coming soon</p>
+                </div>
+            </div>
+
+            <a href="#home" class="next-section">
+                BACK TO TOP
+                <span aria-hidden="true">↑</span>
+            </a>
+        </section>
+
     </main>
 
-    <footer>
-        <p>COS30045 Data Visualisation Project</p>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>
+            COS30045 Data Visualisation Project | Group 24
+        </p>
+
+        <p>
+            Data source: Bureau of Infrastructure and
+            Transport Research Economics (BITRE)
+        </p>
+
+        <p>
+            Hospitalised road crash injuries, Australia,
+            2011–2021
+        </p>
     </footer>
+
 </body>
 </html>
