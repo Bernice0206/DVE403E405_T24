@@ -1,0 +1,65 @@
+"road_user","state","cases","state (Right)","total","share"
+"Bus occupant","ACT",,"ACT",3321,
+"Bus occupant","NSW",412,"NSW",49029,0.8403189948805808
+"Bus occupant","NT",5,"NT",3609,0.13854253255749516
+"Bus occupant","Qld",164,"Qld",48278,0.33969924189071626
+"Bus occupant","SA",75,"SA",12430,0.6033789219629927
+"Bus occupant","Tas",,"Tas",3630,
+"Bus occupant","Vic",284,"Vic",54653,0.5196421056483633
+"Bus occupant","WA",85,"WA",17207,0.4939850061021677
+"Car driver, passenger or unknown position","ACT",1280,"ACT",3321,38.542607648298706
+"Car driver, passenger or unknown position","NSW",21754,"NSW",49029,44.36965877337902
+"Car driver, passenger or unknown position","NT",1948,"NT",3609,53.97617068440012
+"Car driver, passenger or unknown position","Qld",24518,"Qld",48278,50.78503666266209
+"Car driver, passenger or unknown position","SA",5736,"SA",12430,46.14641995172968
+"Car driver, passenger or unknown position","Tas",1835,"Tas",3630,50.55096418732782
+"Car driver, passenger or unknown position","Vic",27686,"Vic",54653,50.657786397818974
+"Car driver, passenger or unknown position","WA",7379,"WA",17207,42.88371011797524
+"Heavy transport driver, passenger or unknown position","ACT",,"ACT",3321,
+"Heavy transport driver, passenger or unknown position","NSW",653,"NSW",49029,1.3318648147015033
+"Heavy transport driver, passenger or unknown position","NT",13,"NT",3609,0.36021058464948735
+"Heavy transport driver, passenger or unknown position","Qld",813,"Qld",48278,1.683996851568002
+"Heavy transport driver, passenger or unknown position","SA",150,"SA",12430,1.2067578439259854
+"Heavy transport driver, passenger or unknown position","Tas",22,"Tas",3630,0.6060606060606061
+"Heavy transport driver, passenger or unknown position","Vic",630,"Vic",54653,1.152727206191792
+"Heavy transport driver, passenger or unknown position","WA",206,"WA",17207,1.1971871912593712
+"Motorcyclist","ACT",702,"ACT",3321,21.138211382113823
+"Motorcyclist","NSW",12026,"NSW",49029,24.52834036998511
+"Motorcyclist","NT",823,"NT",3609,22.804100858963704
+"Motorcyclist","Qld",11895,"Qld",48278,24.638551721280916
+"Motorcyclist","SA",2791,"SA",12430,22.45374094931617
+"Motorcyclist","Tas",878,"Tas",3630,24.187327823691458
+"Motorcyclist","Vic",9511,"Vic",54653,17.40252136204783
+"Motorcyclist","WA",4436,"WA",17207,25.78020573022607
+"Other or unknown","ACT",21,"ACT",3321,0.6323396567299007
+"Other or unknown","NSW",770,"NSW",49029,1.570499092373901
+"Other or unknown","NT",64,"NT",3609,1.773344416735938
+"Other or unknown","Qld",680,"Qld",48278,1.4085090517419943
+"Other or unknown","SA",201,"SA",12430,1.6170555108608204
+"Other or unknown","Tas",54,"Tas",3630,1.487603305785124
+"Other or unknown","Vic",744,"Vic",54653,1.3613159387407827
+"Other or unknown","WA",354,"WA",17207,2.0573022607078517
+"Pedal cyclist","ACT",1202,"ACT",3321,36.193917494730506
+"Pedal cyclist","NSW",9142,"NSW",49029,18.646107405821045
+"Pedal cyclist","NT",429,"NT",3609,11.886949293433084
+"Pedal cyclist","Qld",7669,"Qld",48278,15.88508223207258
+"Pedal cyclist","SA",2661,"SA",12430,21.407884151246982
+"Pedal cyclist","Tas",588,"Tas",3630,16.198347107438018
+"Pedal cyclist","Vic",11788,"Vic",54653,21.568806835855305
+"Pedal cyclist","WA",3575,"WA",17207,20.776428197826466
+"Pedestrian","ACT",116,"ACT",3321,3.4929238181270703
+"Pedestrian","NSW",3919,"NSW",49029,7.993228497419895
+"Pedestrian","NT",304,"NT",3609,8.423385979495706
+"Pedestrian","Qld",2175,"Qld",48278,4.505157628733585
+"Pedestrian","SA",745,"SA",12430,5.993563958165728
+"Pedestrian","Tas",228,"Tas",3630,6.2809917355371905
+"Pedestrian","Vic",3671,"Vic",54653,6.7169231332223305
+"Pedestrian","WA",1013,"WA",17207,5.887138955076423
+"Pick-up truck or van occupant","ACT",,"ACT",3321,
+"Pick-up truck or van occupant","NSW",353,"NSW",49029,0.7199820514389443
+"Pick-up truck or van occupant","NT",23,"NT",3609,0.6372956497644777
+"Pick-up truck or van occupant","Qld",364,"Qld",48278,0.7539666100501263
+"Pick-up truck or van occupant","SA",71,"SA",12430,0.5711987127916331
+"Pick-up truck or van occupant","Tas",25,"Tas",3630,0.6887052341597797
+"Pick-up truck or van occupant","Vic",339,"Vic",54653,0.6202770204746308
+"Pick-up truck or van occupant","WA",159,"WA",17207,0.9240425408264079
