@@ -1,0 +1,697 @@
+"year","road_user","state","cases","suppressed"
+2011,"Bus occupant","ACT",,2
+2011,"Bus occupant","NSW",90,0
+2011,"Bus occupant","NT",,1
+2011,"Bus occupant","Qld",29,0
+2011,"Bus occupant","SA",14,1
+2011,"Bus occupant","Tas",,1
+2011,"Bus occupant","Vic",39,0
+2011,"Bus occupant","WA",26,0
+2011,"Car driver, passenger or unknown position","ACT",198,0
+2011,"Car driver, passenger or unknown position","NSW",5285,0
+2011,"Car driver, passenger or unknown position","NT",209,0
+2011,"Car driver, passenger or unknown position","Qld",2768,0
+2011,"Car driver, passenger or unknown position","SA",1255,0
+2011,"Car driver, passenger or unknown position","Tas",225,0
+2011,"Car driver, passenger or unknown position","Vic",4861,0
+2011,"Car driver, passenger or unknown position","WA",1616,0
+2011,"Heavy transport driver, passenger or unknown position","ACT",,2
+2011,"Heavy transport driver, passenger or unknown position","NSW",161,0
+2011,"Heavy transport driver, passenger or unknown position","Qld",162,0
+2011,"Heavy transport driver, passenger or unknown position","SA",28,0
+2011,"Heavy transport driver, passenger or unknown position","Tas",,2
+2011,"Heavy transport driver, passenger or unknown position","Vic",156,0
+2011,"Heavy transport driver, passenger or unknown position","WA",45,0
+2011,"Motorcyclist","ACT",144,0
+2011,"Motorcyclist","NSW",2393,0
+2011,"Motorcyclist","NT",106,0
+2011,"Motorcyclist","Qld",1781,0
+2011,"Motorcyclist","SA",460,0
+2011,"Motorcyclist","Tas",129,0
+2011,"Motorcyclist","Vic",1622,0
+2011,"Motorcyclist","WA",867,0
+2011,"Other or unknown","ACT",,2
+2011,"Other or unknown","NSW",172,0
+2011,"Other or unknown","NT",24,0
+2011,"Other or unknown","Qld",143,0
+2011,"Other or unknown","SA",,2
+2011,"Other or unknown","Tas",,2
+2011,"Other or unknown","Vic",151,0
+2011,"Other or unknown","WA",70,0
+2011,"Pedal cyclist","ACT",149,0
+2011,"Pedal cyclist","NSW",1487,0
+2011,"Pedal cyclist","NT",62,0
+2011,"Pedal cyclist","Qld",955,0
+2011,"Pedal cyclist","SA",379,0
+2011,"Pedal cyclist","Tas",73,0
+2011,"Pedal cyclist","Vic",1687,0
+2011,"Pedal cyclist","WA",530,0
+2011,"Pedestrian","ACT",30,0
+2011,"Pedestrian","NSW",967,0
+2011,"Pedestrian","NT",44,0
+2011,"Pedestrian","Qld",443,0
+2011,"Pedestrian","SA",176,0
+2011,"Pedestrian","Tas",45,0
+2011,"Pedestrian","Vic",739,0
+2011,"Pedestrian","WA",261,0
+2011,"Pick-up truck or van occupant","ACT",,1
+2011,"Pick-up truck or van occupant","NSW",63,0
+2011,"Pick-up truck or van occupant","NT",7,1
+2011,"Pick-up truck or van occupant","Qld",41,0
+2011,"Pick-up truck or van occupant","SA",11,1
+2011,"Pick-up truck or van occupant","Tas",,1
+2011,"Pick-up truck or van occupant","Vic",71,0
+2011,"Pick-up truck or van occupant","WA",27,0
+2012,"Bus occupant","ACT",,2
+2012,"Bus occupant","NSW",91,0
+2012,"Bus occupant","NT",,2
+2012,"Bus occupant","Qld",33,0
+2012,"Bus occupant","SA",8,1
+2012,"Bus occupant","Tas",,1
+2012,"Bus occupant","Vic",33,0
+2012,"Bus occupant","WA",24,0
+2012,"Car driver, passenger or unknown position","ACT",237,0
+2012,"Car driver, passenger or unknown position","NSW",5423,0
+2012,"Car driver, passenger or unknown position","NT",247,0
+2012,"Car driver, passenger or unknown position","Qld",3199,0
+2012,"Car driver, passenger or unknown position","SA",1133,0
+2012,"Car driver, passenger or unknown position","Tas",245,0
+2012,"Car driver, passenger or unknown position","Vic",4062,0
+2012,"Car driver, passenger or unknown position","WA",1568,0
+2012,"Heavy transport driver, passenger or unknown position","ACT",,2
+2012,"Heavy transport driver, passenger or unknown position","NSW",142,0
+2012,"Heavy transport driver, passenger or unknown position","NT",7,1
+2012,"Heavy transport driver, passenger or unknown position","Qld",146,0
+2012,"Heavy transport driver, passenger or unknown position","SA",31,0
+2012,"Heavy transport driver, passenger or unknown position","Tas",,2
+2012,"Heavy transport driver, passenger or unknown position","Vic",116,0
+2012,"Heavy transport driver, passenger or unknown position","WA",50,0
+2012,"Motorcyclist","ACT",144,0
+2012,"Motorcyclist","NSW",2626,0
+2012,"Motorcyclist","NT",118,0
+2012,"Motorcyclist","Qld",1776,0
+2012,"Motorcyclist","SA",451,0
+2012,"Motorcyclist","Tas",124,0
+2012,"Motorcyclist","Vic",1505,0
+2012,"Motorcyclist","WA",909,0
+2012,"Other or unknown","ACT",11,1
+2012,"Other or unknown","NSW",133,0
+2012,"Other or unknown","NT",13,0
+2012,"Other or unknown","Qld",138,0
+2012,"Other or unknown","SA",61,0
+2012,"Other or unknown","Tas",7,1
+2012,"Other or unknown","Vic",103,0
+2012,"Other or unknown","WA",88,0
+2012,"Pedal cyclist","ACT",173,0
+2012,"Pedal cyclist","NSW",1667,0
+2012,"Pedal cyclist","NT",45,0
+2012,"Pedal cyclist","Qld",1054,0
+2012,"Pedal cyclist","SA",401,0
+2012,"Pedal cyclist","Tas",91,0
+2012,"Pedal cyclist","Vic",1530,0
+2012,"Pedal cyclist","WA",587,0
+2012,"Pedestrian","ACT",27,0
+2012,"Pedestrian","NSW",955,0
+2012,"Pedestrian","NT",51,0
+2012,"Pedestrian","Qld",416,0
+2012,"Pedestrian","SA",196,0
+2012,"Pedestrian","Tas",51,0
+2012,"Pedestrian","Vic",675,0
+2012,"Pedestrian","WA",242,0
+2012,"Pick-up truck or van occupant","NSW",84,0
+2012,"Pick-up truck or van occupant","NT",,2
+2012,"Pick-up truck or van occupant","Qld",51,0
+2012,"Pick-up truck or van occupant","SA",10,1
+2012,"Pick-up truck or van occupant","Tas",,1
+2012,"Pick-up truck or van occupant","Vic",74,0
+2012,"Pick-up truck or van occupant","WA",25,0
+2013,"Bus occupant","ACT",,2
+2013,"Bus occupant","NSW",82,0
+2013,"Bus occupant","NT",,2
+2013,"Bus occupant","Qld",37,0
+2013,"Bus occupant","SA",16,0
+2013,"Bus occupant","Tas",,1
+2013,"Bus occupant","Vic",45,0
+2013,"Bus occupant","WA",30,0
+2013,"Car driver, passenger or unknown position","ACT",212,0
+2013,"Car driver, passenger or unknown position","NSW",5585,0
+2013,"Car driver, passenger or unknown position","NT",296,0
+2013,"Car driver, passenger or unknown position","Qld",3658,0
+2013,"Car driver, passenger or unknown position","SA",1106,0
+2013,"Car driver, passenger or unknown position","Tas",265,0
+2013,"Car driver, passenger or unknown position","Vic",3689,0
+2013,"Car driver, passenger or unknown position","WA",1452,0
+2013,"Heavy transport driver, passenger or unknown position","ACT",,1
+2013,"Heavy transport driver, passenger or unknown position","NSW",127,0
+2013,"Heavy transport driver, passenger or unknown position","NT",,2
+2013,"Heavy transport driver, passenger or unknown position","Qld",165,0
+2013,"Heavy transport driver, passenger or unknown position","SA",25,0
+2013,"Heavy transport driver, passenger or unknown position","Tas",,1
+2013,"Heavy transport driver, passenger or unknown position","Vic",103,0
+2013,"Heavy transport driver, passenger or unknown position","WA",40,0
+2013,"Motorcyclist","ACT",137,0
+2013,"Motorcyclist","NSW",2570,0
+2013,"Motorcyclist","NT",121,0
+2013,"Motorcyclist","Qld",2047,0
+2013,"Motorcyclist","SA",455,0
+2013,"Motorcyclist","Tas",149,0
+2013,"Motorcyclist","Vic",1521,0
+2013,"Motorcyclist","WA",958,0
+2013,"Other or unknown","ACT",5,1
+2013,"Other or unknown","NSW",162,0
+2013,"Other or unknown","NT",,2
+2013,"Other or unknown","Qld",140,0
+2013,"Other or unknown","SA",27,0
+2013,"Other or unknown","Tas",9,1
+2013,"Other or unknown","Vic",118,0
+2013,"Other or unknown","WA",56,0
+2013,"Pedal cyclist","ACT",174,0
+2013,"Pedal cyclist","NSW",1835,0
+2013,"Pedal cyclist","NT",70,0
+2013,"Pedal cyclist","Qld",1321,0
+2013,"Pedal cyclist","SA",400,0
+2013,"Pedal cyclist","Tas",94,0
+2013,"Pedal cyclist","Vic",1583,0
+2013,"Pedal cyclist","WA",675,0
+2013,"Pedestrian","ACT",33,0
+2013,"Pedestrian","NSW",993,0
+2013,"Pedestrian","NT",42,0
+2013,"Pedestrian","Qld",400,0
+2013,"Pedestrian","SA",172,0
+2013,"Pedestrian","Tas",43,0
+2013,"Pedestrian","Vic",673,0
+2013,"Pedestrian","WA",245,0
+2013,"Pick-up truck or van occupant","ACT",,1
+2013,"Pick-up truck or van occupant","NSW",67,0
+2013,"Pick-up truck or van occupant","NT",6,1
+2013,"Pick-up truck or van occupant","Qld",53,0
+2013,"Pick-up truck or van occupant","SA",20,0
+2013,"Pick-up truck or van occupant","Tas",,2
+2013,"Pick-up truck or van occupant","Vic",52,0
+2013,"Pick-up truck or van occupant","WA",19,0
+2014,"Bus occupant","ACT",,2
+2014,"Bus occupant","NSW",107,0
+2014,"Bus occupant","NT",7,0
+2014,"Bus occupant","Qld",49,0
+2014,"Bus occupant","SA",8,1
+2014,"Bus occupant","Tas",,2
+2014,"Bus occupant","Vic",57,0
+2014,"Bus occupant","WA",29,0
+2014,"Car driver, passenger or unknown position","ACT",232,0
+2014,"Car driver, passenger or unknown position","NSW",5319,0
+2014,"Car driver, passenger or unknown position","NT",276,0
+2014,"Car driver, passenger or unknown position","Qld",3580,0
+2014,"Car driver, passenger or unknown position","SA",1066,0
+2014,"Car driver, passenger or unknown position","Tas",261,0
+2014,"Car driver, passenger or unknown position","Vic",4070,0
+2014,"Car driver, passenger or unknown position","WA",1282,0
+2014,"Heavy transport driver, passenger or unknown position","ACT",,2
+2014,"Heavy transport driver, passenger or unknown position","NSW",145,0
+2014,"Heavy transport driver, passenger or unknown position","NT",5,1
+2014,"Heavy transport driver, passenger or unknown position","Qld",146,0
+2014,"Heavy transport driver, passenger or unknown position","SA",35,0
+2014,"Heavy transport driver, passenger or unknown position","Tas",,2
+2014,"Heavy transport driver, passenger or unknown position","Vic",107,0
+2014,"Heavy transport driver, passenger or unknown position","WA",35,0
+2014,"Motorcyclist","ACT",102,0
+2014,"Motorcyclist","NSW",2636,0
+2014,"Motorcyclist","NT",150,0
+2014,"Motorcyclist","Qld",2070,0
+2014,"Motorcyclist","SA",557,0
+2014,"Motorcyclist","Tas",204,0
+2014,"Motorcyclist","Vic",1654,0
+2014,"Motorcyclist","WA",865,0
+2014,"Other or unknown","ACT",,2
+2014,"Other or unknown","NSW",131,0
+2014,"Other or unknown","NT",,2
+2014,"Other or unknown","Qld",134,0
+2014,"Other or unknown","SA",16,1
+2014,"Other or unknown","Tas",9,1
+2014,"Other or unknown","Vic",115,0
+2014,"Other or unknown","WA",69,0
+2014,"Pedal cyclist","ACT",179,0
+2014,"Pedal cyclist","NSW",1902,0
+2014,"Pedal cyclist","NT",65,0
+2014,"Pedal cyclist","Qld",1333,0
+2014,"Pedal cyclist","SA",494,0
+2014,"Pedal cyclist","Tas",111,0
+2014,"Pedal cyclist","Vic",1819,0
+2014,"Pedal cyclist","WA",657,0
+2014,"Pedestrian","ACT",20,0
+2014,"Pedestrian","NSW",1000,0
+2014,"Pedestrian","NT",59,0
+2014,"Pedestrian","Qld",372,0
+2014,"Pedestrian","SA",162,0
+2014,"Pedestrian","Tas",45,0
+2014,"Pedestrian","Vic",643,0
+2014,"Pedestrian","WA",198,0
+2014,"Pick-up truck or van occupant","NSW",73,0
+2014,"Pick-up truck or van occupant","NT",,2
+2014,"Pick-up truck or van occupant","Qld",41,0
+2014,"Pick-up truck or van occupant","SA",26,0
+2014,"Pick-up truck or van occupant","Tas",,2
+2014,"Pick-up truck or van occupant","Vic",58,0
+2014,"Pick-up truck or van occupant","WA",19,0
+2015,"Bus occupant","ACT",12,1
+2015,"Bus occupant","NSW",96,0
+2015,"Bus occupant","NT",,2
+2015,"Bus occupant","Qld",40,0
+2015,"Bus occupant","SA",6,1
+2015,"Bus occupant","Tas",,1
+2015,"Bus occupant","Vic",60,0
+2015,"Bus occupant","WA",13,1
+2015,"Car driver, passenger or unknown position","ACT",275,0
+2015,"Car driver, passenger or unknown position","NSW",5428,0
+2015,"Car driver, passenger or unknown position","NT",335,0
+2015,"Car driver, passenger or unknown position","Qld",4013,0
+2015,"Car driver, passenger or unknown position","SA",1193,0
+2015,"Car driver, passenger or unknown position","Tas",325,0
+2015,"Car driver, passenger or unknown position","Vic",4558,0
+2015,"Car driver, passenger or unknown position","WA",1372,0
+2015,"Heavy transport driver, passenger or unknown position","ACT",6,1
+2015,"Heavy transport driver, passenger or unknown position","NSW",163,0
+2015,"Heavy transport driver, passenger or unknown position","NT",,2
+2015,"Heavy transport driver, passenger or unknown position","Qld",141,0
+2015,"Heavy transport driver, passenger or unknown position","SA",17,1
+2015,"Heavy transport driver, passenger or unknown position","Tas",8,1
+2015,"Heavy transport driver, passenger or unknown position","Vic",107,0
+2015,"Heavy transport driver, passenger or unknown position","WA",33,0
+2015,"Motorcyclist","ACT",145,0
+2015,"Motorcyclist","NSW",2459,0
+2015,"Motorcyclist","NT",169,0
+2015,"Motorcyclist","Qld",2144,0
+2015,"Motorcyclist","SA",549,0
+2015,"Motorcyclist","Tas",197,0
+2015,"Motorcyclist","Vic",1694,0
+2015,"Motorcyclist","WA",842,0
+2015,"Other or unknown","ACT",,2
+2015,"Other or unknown","NSW",129,0
+2015,"Other or unknown","NT",,2
+2015,"Other or unknown","Qld",113,0
+2015,"Other or unknown","SA",32,0
+2015,"Other or unknown","Tas",9,1
+2015,"Other or unknown","Vic",122,0
+2015,"Other or unknown","WA",70,0
+2015,"Pedal cyclist","ACT",222,0
+2015,"Pedal cyclist","NSW",1793,0
+2015,"Pedal cyclist","NT",81,0
+2015,"Pedal cyclist","Qld",1378,0
+2015,"Pedal cyclist","SA",517,0
+2015,"Pedal cyclist","Tas",93,0
+2015,"Pedal cyclist","Vic",1894,0
+2015,"Pedal cyclist","WA",621,0
+2015,"Pedestrian","ACT",27,0
+2015,"Pedestrian","NSW",951,0
+2015,"Pedestrian","NT",71,0
+2015,"Pedestrian","Qld",427,0
+2015,"Pedestrian","SA",121,0
+2015,"Pedestrian","Tas",35,0
+2015,"Pedestrian","Vic",700,0
+2015,"Pedestrian","WA",204,0
+2015,"Pick-up truck or van occupant","NSW",65,0
+2015,"Pick-up truck or van occupant","NT",19,0
+2015,"Pick-up truck or van occupant","Qld",50,0
+2015,"Pick-up truck or van occupant","SA",12,0
+2015,"Pick-up truck or van occupant","Tas",,1
+2015,"Pick-up truck or van occupant","Vic",63,0
+2015,"Pick-up truck or van occupant","WA",8,1
+2016,"Bus occupant","ACT",,2
+2016,"Bus occupant","NSW",114,0
+2016,"Bus occupant","NT",5,1
+2016,"Bus occupant","Qld",41,0
+2016,"Bus occupant","SA",14,0
+2016,"Bus occupant","Tas",,2
+2016,"Bus occupant","Vic",63,0
+2016,"Bus occupant","WA",21,0
+2016,"Car driver, passenger or unknown position","ACT",250,0
+2016,"Car driver, passenger or unknown position","NSW",5639,0
+2016,"Car driver, passenger or unknown position","NT",374,0
+2016,"Car driver, passenger or unknown position","Qld",4260,0
+2016,"Car driver, passenger or unknown position","SA",1292,0
+2016,"Car driver, passenger or unknown position","Tas",310,0
+2016,"Car driver, passenger or unknown position","Vic",5324,0
+2016,"Car driver, passenger or unknown position","WA",1252,0
+2016,"Heavy transport driver, passenger or unknown position","ACT",,1
+2016,"Heavy transport driver, passenger or unknown position","NSW",133,0
+2016,"Heavy transport driver, passenger or unknown position","NT",5,1
+2016,"Heavy transport driver, passenger or unknown position","Qld",142,0
+2016,"Heavy transport driver, passenger or unknown position","SA",39,0
+2016,"Heavy transport driver, passenger or unknown position","Tas",8,1
+2016,"Heavy transport driver, passenger or unknown position","Vic",110,0
+2016,"Heavy transport driver, passenger or unknown position","WA",34,0
+2016,"Motorcyclist","ACT",147,0
+2016,"Motorcyclist","NSW",2648,0
+2016,"Motorcyclist","NT",151,0
+2016,"Motorcyclist","Qld",2159,0
+2016,"Motorcyclist","SA",546,0
+2016,"Motorcyclist","Tas",171,0
+2016,"Motorcyclist","Vic",1806,0
+2016,"Motorcyclist","WA",802,0
+2016,"Other or unknown","ACT",5,1
+2016,"Other or unknown","NSW",134,0
+2016,"Other or unknown","NT",6,1
+2016,"Other or unknown","Qld",146,0
+2016,"Other or unknown","SA",46,0
+2016,"Other or unknown","Tas",15,0
+2016,"Other or unknown","Vic",173,0
+2016,"Other or unknown","WA",68,0
+2016,"Pedal cyclist","ACT",215,0
+2016,"Pedal cyclist","NSW",1775,0
+2016,"Pedal cyclist","NT",70,0
+2016,"Pedal cyclist","Qld",1442,0
+2016,"Pedal cyclist","SA",527,0
+2016,"Pedal cyclist","Tas",96,0
+2016,"Pedal cyclist","Vic",2008,0
+2016,"Pedal cyclist","WA",652,0
+2016,"Pedestrian","ACT",28,0
+2016,"Pedestrian","NSW",964,0
+2016,"Pedestrian","NT",59,0
+2016,"Pedestrian","Qld",455,0
+2016,"Pedestrian","SA",168,0
+2016,"Pedestrian","Tas",41,0
+2016,"Pedestrian","Vic",800,0
+2016,"Pedestrian","WA",166,0
+2016,"Pick-up truck or van occupant","ACT",,2
+2016,"Pick-up truck or van occupant","NSW",67,0
+2016,"Pick-up truck or van occupant","NT",12,1
+2016,"Pick-up truck or van occupant","Qld",57,0
+2016,"Pick-up truck or van occupant","SA",22,0
+2016,"Pick-up truck or van occupant","Tas",5,1
+2016,"Pick-up truck or van occupant","Vic",76,0
+2016,"Pick-up truck or van occupant","WA",36,0
+2017,"Bus occupant","ACT",,2
+2017,"Bus occupant","NSW",109,0
+2017,"Bus occupant","Qld",28,0
+2017,"Bus occupant","SA",15,0
+2017,"Bus occupant","Tas",,2
+2017,"Bus occupant","Vic",73,0
+2017,"Bus occupant","WA",15,0
+2017,"Car driver, passenger or unknown position","ACT",250,0
+2017,"Car driver, passenger or unknown position","NSW",5295,0
+2017,"Car driver, passenger or unknown position","NT",366,0
+2017,"Car driver, passenger or unknown position","Qld",4559,0
+2017,"Car driver, passenger or unknown position","SA",1151,0
+2017,"Car driver, passenger or unknown position","Tas",310,0
+2017,"Car driver, passenger or unknown position","Vic",5528,0
+2017,"Car driver, passenger or unknown position","WA",1277,0
+2017,"Heavy transport driver, passenger or unknown position","ACT",,2
+2017,"Heavy transport driver, passenger or unknown position","NSW",147,0
+2017,"Heavy transport driver, passenger or unknown position","NT",7,1
+2017,"Heavy transport driver, passenger or unknown position","Qld",170,0
+2017,"Heavy transport driver, passenger or unknown position","SA",31,0
+2017,"Heavy transport driver, passenger or unknown position","Tas",5,1
+2017,"Heavy transport driver, passenger or unknown position","Vic",126,0
+2017,"Heavy transport driver, passenger or unknown position","WA",29,0
+2017,"Motorcyclist","ACT",119,0
+2017,"Motorcyclist","NSW",2526,0
+2017,"Motorcyclist","NT",149,0
+2017,"Motorcyclist","Qld",2208,0
+2017,"Motorcyclist","SA",531,0
+2017,"Motorcyclist","Tas",169,0
+2017,"Motorcyclist","Vic",1979,0
+2017,"Motorcyclist","WA",931,0
+2017,"Other or unknown","ACT",,2
+2017,"Other or unknown","NSW",137,0
+2017,"Other or unknown","NT",9,1
+2017,"Other or unknown","Qld",135,0
+2017,"Other or unknown","SA",55,0
+2017,"Other or unknown","Tas",8,1
+2017,"Other or unknown","Vic",146,0
+2017,"Other or unknown","WA",87,0
+2017,"Pedal cyclist","ACT",211,0
+2017,"Pedal cyclist","NSW",1791,0
+2017,"Pedal cyclist","NT",74,0
+2017,"Pedal cyclist","Qld",1542,0
+2017,"Pedal cyclist","SA",469,0
+2017,"Pedal cyclist","Tas",107,0
+2017,"Pedal cyclist","Vic",2089,0
+2017,"Pedal cyclist","WA",637,0
+2017,"Pedestrian","ACT",34,0
+2017,"Pedestrian","NSW",929,0
+2017,"Pedestrian","NT",79,0
+2017,"Pedestrian","Qld",439,0
+2017,"Pedestrian","SA",127,0
+2017,"Pedestrian","Tas",34,0
+2017,"Pedestrian","Vic",786,0
+2017,"Pedestrian","WA",194,0
+2017,"Pick-up truck or van occupant","ACT",,1
+2017,"Pick-up truck or van occupant","NSW",82,0
+2017,"Pick-up truck or van occupant","NT",,2
+2017,"Pick-up truck or van occupant","Qld",53,0
+2017,"Pick-up truck or van occupant","SA",15,0
+2017,"Pick-up truck or van occupant","Tas",,2
+2017,"Pick-up truck or van occupant","Vic",67,0
+2017,"Pick-up truck or van occupant","WA",25,0
+2018,"Bus occupant","ACT",,1
+2018,"Bus occupant","NSW",92,0
+2018,"Bus occupant","NT",,2
+2018,"Bus occupant","Qld",37,0
+2018,"Bus occupant","SA",9,1
+2018,"Bus occupant","Tas",,2
+2018,"Bus occupant","Vic",73,0
+2018,"Bus occupant","WA",12,0
+2018,"Car driver, passenger or unknown position","ACT",287,0
+2018,"Car driver, passenger or unknown position","NSW",4469,0
+2018,"Car driver, passenger or unknown position","NT",488,0
+2018,"Car driver, passenger or unknown position","Qld",4823,0
+2018,"Car driver, passenger or unknown position","SA",1190,0
+2018,"Car driver, passenger or unknown position","Tas",404,0
+2018,"Car driver, passenger or unknown position","Vic",6099,0
+2018,"Car driver, passenger or unknown position","WA",1485,0
+2018,"Heavy transport driver, passenger or unknown position","ACT",,2
+2018,"Heavy transport driver, passenger or unknown position","NSW",151,0
+2018,"Heavy transport driver, passenger or unknown position","NT",,2
+2018,"Heavy transport driver, passenger or unknown position","Qld",163,0
+2018,"Heavy transport driver, passenger or unknown position","SA",20,0
+2018,"Heavy transport driver, passenger or unknown position","Tas",8,1
+2018,"Heavy transport driver, passenger or unknown position","Vic",143,0
+2018,"Heavy transport driver, passenger or unknown position","WA",46,0
+2018,"Motorcyclist","ACT",161,0
+2018,"Motorcyclist","NSW",2347,0
+2018,"Motorcyclist","NT",169,0
+2018,"Motorcyclist","Qld",2320,0
+2018,"Motorcyclist","SA",559,0
+2018,"Motorcyclist","Tas",171,0
+2018,"Motorcyclist","Vic",1944,0
+2018,"Motorcyclist","WA",788,0
+2018,"Other or unknown","ACT",9,1
+2018,"Other or unknown","NSW",163,0
+2018,"Other or unknown","NT",7,1
+2018,"Other or unknown","Qld",131,0
+2018,"Other or unknown","SA",51,0
+2018,"Other or unknown","Tas",15,0
+2018,"Other or unknown","Vic",150,0
+2018,"Other or unknown","WA",60,0
+2018,"Pedal cyclist","ACT",217,0
+2018,"Pedal cyclist","NSW",1681,0
+2018,"Pedal cyclist","NT",71,0
+2018,"Pedal cyclist","Qld",1408,0
+2018,"Pedal cyclist","SA",496,0
+2018,"Pedal cyclist","Tas",109,0
+2018,"Pedal cyclist","Vic",2144,0
+2018,"Pedal cyclist","WA",665,0
+2018,"Pedestrian","ACT",24,0
+2018,"Pedestrian","NSW",823,0
+2018,"Pedestrian","NT",73,0
+2018,"Pedestrian","Qld",430,0
+2018,"Pedestrian","SA",148,0
+2018,"Pedestrian","Tas",59,0
+2018,"Pedestrian","Vic",830,0
+2018,"Pedestrian","WA",189,0
+2018,"Pick-up truck or van occupant","ACT",,2
+2018,"Pick-up truck or van occupant","NSW",68,0
+2018,"Pick-up truck or van occupant","NT",7,1
+2018,"Pick-up truck or van occupant","Qld",69,0
+2018,"Pick-up truck or van occupant","SA",8,1
+2018,"Pick-up truck or van occupant","Tas",5,1
+2018,"Pick-up truck or van occupant","Vic",70,0
+2018,"Pick-up truck or van occupant","WA",29,0
+2019,"Bus occupant","ACT",,1
+2019,"Bus occupant","NSW",97,0
+2019,"Bus occupant","NT",,2
+2019,"Bus occupant","Qld",39,0
+2019,"Bus occupant","SA",14,0
+2019,"Bus occupant","Tas",,2
+2019,"Bus occupant","Vic",67,0
+2019,"Bus occupant","WA",16,0
+2019,"Car driver, passenger or unknown position","ACT",279,0
+2019,"Car driver, passenger or unknown position","NSW",4397,0
+2019,"Car driver, passenger or unknown position","NT",347,0
+2019,"Car driver, passenger or unknown position","Qld",4829,0
+2019,"Car driver, passenger or unknown position","SA",1075,0
+2019,"Car driver, passenger or unknown position","Tas",344,0
+2019,"Car driver, passenger or unknown position","Vic",5996,0
+2019,"Car driver, passenger or unknown position","WA",1540,0
+2019,"Heavy transport driver, passenger or unknown position","ACT",,2
+2019,"Heavy transport driver, passenger or unknown position","NSW",127,0
+2019,"Heavy transport driver, passenger or unknown position","NT",,2
+2019,"Heavy transport driver, passenger or unknown position","Qld",165,0
+2019,"Heavy transport driver, passenger or unknown position","SA",44,0
+2019,"Heavy transport driver, passenger or unknown position","Tas",9,1
+2019,"Heavy transport driver, passenger or unknown position","Vic",122,0
+2019,"Heavy transport driver, passenger or unknown position","WA",40,0
+2019,"Motorcyclist","ACT",136,0
+2019,"Motorcyclist","NSW",2565,0
+2019,"Motorcyclist","NT",153,0
+2019,"Motorcyclist","Qld",2322,0
+2019,"Motorcyclist","SA",562,0
+2019,"Motorcyclist","Tas",148,0
+2019,"Motorcyclist","Vic",1939,0
+2019,"Motorcyclist","WA",886,0
+2019,"Other or unknown","ACT",,2
+2019,"Other or unknown","NSW",168,0
+2019,"Other or unknown","NT",17,0
+2019,"Other or unknown","Qld",120,0
+2019,"Other or unknown","SA",23,1
+2019,"Other or unknown","Tas",11,1
+2019,"Other or unknown","Vic",169,0
+2019,"Other or unknown","WA",62,0
+2019,"Pedal cyclist","ACT",218,0
+2019,"Pedal cyclist","NSW",1678,0
+2019,"Pedal cyclist","NT",84,0
+2019,"Pedal cyclist","Qld",1531,0
+2019,"Pedal cyclist","SA",526,0
+2019,"Pedal cyclist","Tas",121,0
+2019,"Pedal cyclist","Vic",2215,0
+2019,"Pedal cyclist","WA",735,0
+2019,"Pedestrian","ACT",22,0
+2019,"Pedestrian","NSW",858,0
+2019,"Pedestrian","NT",38,0
+2019,"Pedestrian","Qld",444,0
+2019,"Pedestrian","SA",167,0
+2019,"Pedestrian","Tas",53,0
+2019,"Pedestrian","Vic",815,0
+2019,"Pedestrian","WA",227,0
+2019,"Pick-up truck or van occupant","NSW",52,0
+2019,"Pick-up truck or van occupant","NT",7,1
+2019,"Pick-up truck or van occupant","Qld",65,0
+2019,"Pick-up truck or van occupant","SA",9,1
+2019,"Pick-up truck or van occupant","Tas",,2
+2019,"Pick-up truck or van occupant","Vic",69,0
+2019,"Pick-up truck or van occupant","WA",28,0
+2020,"Bus occupant","ACT",,2
+2020,"Bus occupant","NSW",64,0
+2020,"Bus occupant","NT",,1
+2020,"Bus occupant","Qld",22,0
+2020,"Bus occupant","SA",23,0
+2020,"Bus occupant","Tas",,2
+2020,"Bus occupant","Vic",34,0
+2020,"Bus occupant","WA",20,0
+2020,"Car driver, passenger or unknown position","ACT",230,0
+2020,"Car driver, passenger or unknown position","NSW",3924,0
+2020,"Car driver, passenger or unknown position","NT",385,0
+2020,"Car driver, passenger or unknown position","Qld",4836,0
+2020,"Car driver, passenger or unknown position","SA",1089,0
+2020,"Car driver, passenger or unknown position","Tas",378,0
+2020,"Car driver, passenger or unknown position","Vic",4661,0
+2020,"Car driver, passenger or unknown position","WA",1498,0
+2020,"Heavy transport driver, passenger or unknown position","ACT",,1
+2020,"Heavy transport driver, passenger or unknown position","NSW",125,0
+2020,"Heavy transport driver, passenger or unknown position","NT",6,1
+2020,"Heavy transport driver, passenger or unknown position","Qld",171,0
+2020,"Heavy transport driver, passenger or unknown position","SA",29,0
+2020,"Heavy transport driver, passenger or unknown position","Tas",,2
+2020,"Heavy transport driver, passenger or unknown position","Vic",103,0
+2020,"Heavy transport driver, passenger or unknown position","WA",44,0
+2020,"Motorcyclist","ACT",142,0
+2020,"Motorcyclist","NSW",2335,0
+2020,"Motorcyclist","NT",195,0
+2020,"Motorcyclist","Qld",2447,0
+2020,"Motorcyclist","SA",583,0
+2020,"Motorcyclist","Tas",192,0
+2020,"Motorcyclist","Vic",1682,0
+2020,"Motorcyclist","WA",949,0
+2020,"Other or unknown","ACT",12,0
+2020,"Other or unknown","NSW",138,0
+2020,"Other or unknown","NT",23,0
+2020,"Other or unknown","Qld",142,0
+2020,"Other or unknown","SA",32,0
+2020,"Other or unknown","Tas",12,0
+2020,"Other or unknown","Vic",144,0
+2020,"Other or unknown","WA",74,0
+2020,"Pedal cyclist","ACT",223,0
+2020,"Pedal cyclist","NSW",1950,0
+2020,"Pedal cyclist","NT",108,0
+2020,"Pedal cyclist","Qld",1684,0
+2020,"Pedal cyclist","SA",593,0
+2020,"Pedal cyclist","Tas",133,0
+2020,"Pedal cyclist","Vic",2645,0
+2020,"Pedal cyclist","WA",834,0
+2020,"Pedestrian","ACT",14,0
+2020,"Pedestrian","NSW",660,0
+2020,"Pedestrian","NT",56,0
+2020,"Pedestrian","Qld",414,0
+2020,"Pedestrian","SA",131,0
+2020,"Pedestrian","Tas",36,0
+2020,"Pedestrian","Vic",558,0
+2020,"Pedestrian","WA",183,0
+2020,"Pick-up truck or van occupant","ACT",,1
+2020,"Pick-up truck or van occupant","NSW",78,0
+2020,"Pick-up truck or van occupant","NT",,2
+2020,"Pick-up truck or van occupant","Qld",85,0
+2020,"Pick-up truck or van occupant","SA",23,0
+2020,"Pick-up truck or van occupant","Tas",7,1
+2020,"Pick-up truck or van occupant","Vic",57,0
+2020,"Pick-up truck or van occupant","WA",34,0
+2021,"Bus occupant","NSW",50,0
+2021,"Bus occupant","NT",5,1
+2021,"Bus occupant","Qld",38,0
+2021,"Bus occupant","SA",14,0
+2021,"Bus occupant","Tas",,1
+2021,"Bus occupant","Vic",37,0
+2021,"Bus occupant","WA",22,0
+2021,"Car driver, passenger or unknown position","ACT",234,0
+2021,"Car driver, passenger or unknown position","NSW",3669,0
+2021,"Car driver, passenger or unknown position","NT",362,0
+2021,"Car driver, passenger or unknown position","Qld",5471,0
+2021,"Car driver, passenger or unknown position","SA",1231,0
+2021,"Car driver, passenger or unknown position","Tas",399,0
+2021,"Car driver, passenger or unknown position","Vic",5402,0
+2021,"Car driver, passenger or unknown position","WA",1579,0
+2021,"Heavy transport driver, passenger or unknown position","NSW",103,0
+2021,"Heavy transport driver, passenger or unknown position","NT",,2
+2021,"Heavy transport driver, passenger or unknown position","Qld",144,0
+2021,"Heavy transport driver, passenger or unknown position","SA",26,0
+2021,"Heavy transport driver, passenger or unknown position","Tas",,2
+2021,"Heavy transport driver, passenger or unknown position","Vic",136,0
+2021,"Heavy transport driver, passenger or unknown position","WA",47,0
+2021,"Motorcyclist","ACT",144,0
+2021,"Motorcyclist","NSW",2253,0
+2021,"Motorcyclist","NT",157,0
+2021,"Motorcyclist","Qld",2598,0
+2021,"Motorcyclist","SA",556,0
+2021,"Motorcyclist","Tas",198,0
+2021,"Motorcyclist","Vic",1967,0
+2021,"Motorcyclist","WA",882,0
+2021,"Other or unknown","ACT",,2
+2021,"Other or unknown","NSW",164,0
+2021,"Other or unknown","NT",8,1
+2021,"Other or unknown","Qld",152,0
+2021,"Other or unknown","SA",40,0
+2021,"Other or unknown","Tas",8,1
+2021,"Other or unknown","Vic",135,0
+2021,"Other or unknown","WA",71,0
+2021,"Pedal cyclist","ACT",333,0
+2021,"Pedal cyclist","NSW",2042,0
+2021,"Pedal cyclist","NT",92,0
+2021,"Pedal cyclist","Qld",1504,0
+2021,"Pedal cyclist","SA",577,0
+2021,"Pedal cyclist","Tas",118,0
+2021,"Pedal cyclist","Vic",2695,0
+2021,"Pedal cyclist","WA",704,0
+2021,"Pedestrian","ACT",22,0
+2021,"Pedestrian","NSW",649,0
+2021,"Pedestrian","NT",58,0
+2021,"Pedestrian","Qld",448,0
+2021,"Pedestrian","SA",172,0
+2021,"Pedestrian","Tas",46,0
+2021,"Pedestrian","Vic",682,0
+2021,"Pedestrian","WA",220,0
+2021,"Pick-up truck or van occupant","ACT",,2
+2021,"Pick-up truck or van occupant","NSW",73,0
+2021,"Pick-up truck or van occupant","NT",9,1
+2021,"Pick-up truck or van occupant","Qld",92,0
+2021,"Pick-up truck or van occupant","SA",16,0
+2021,"Pick-up truck or van occupant","Tas",13,1
+2021,"Pick-up truck or van occupant","Vic",76,0
+2021,"Pick-up truck or van occupant","WA",43,0
