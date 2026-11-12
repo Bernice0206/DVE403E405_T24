@@ -49,7 +49,6 @@ The files in `data/` follow the column names from the KNIME guide. If you replac
 | q5_fn_age.csv / q5_fn_roaduser.csv / q5_fn_remoteness.csv | year, status, age / road_user / remoteness, hosp |
 
 ## Before you submit
-
 - Replace `Group 24 · Bernice Xin Yie LIU  · Miaw Fong LIM` and the GitHub link in the footer of `index.html`.
 - State boundaries are from https://github.com/Bernice0206/DVE403E405_T24, simplified with mapshaper.
 - Data source: BITRE Hospitalised Injury data, https://www.bitre.gov.au/publications/ongoing/hospitalised-injury
