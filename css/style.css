@@ -200,3 +200,4 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: s
 /* Chart labels get a thin outline in the page colour so they stay readable over gridlines and bubbles */
 svg text.halo { paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
 svg text.halo:not(.muted) { fill: var(--ink); }
+
