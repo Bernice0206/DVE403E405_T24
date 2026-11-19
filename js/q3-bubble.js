@@ -38,7 +38,6 @@
       { label: "Cases per year", num: true, value: (d) => RC.fmt(Math.round(d.perYear)) },
       { label: "Bed days 2016–21", num: true, value: (d) => RC.fmt(d.bed) },
       { label: "Bed days per case", num: true, value: (d) => d.bdpc.toFixed(1) },
-      { label: "Male %", num: true, value: (d) => (d.male === null ? "" : d.male.toFixed(1)) },
     ], [...data[mode]].sort((a, b) => b.bdpc - a.bdpc));
   }
 
