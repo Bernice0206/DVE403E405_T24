@@ -77,7 +77,7 @@
       .attr("x", 4).attr("y", m.top - 6).attr("text-anchor", "start").attr("font-size", 12)
       .text("↑ Bed days per case");
 
-    // average stay line
+    // average stay line (its label is placed later, clear of the bubbles)
     const av = svg.select(".avg").selectAll("g").data([avg]).join((en) => {
       const g = en.append("g");
       g.append("line"); g.append("text");
@@ -85,9 +85,6 @@
     });
     av.select("line").style("stroke", RC.css("--muted")).attr("stroke-dasharray", "4 4")
       .attr("x1", m.left).attr("x2", W - m.right).transition().duration(dur).attr("y1", y(avg)).attr("y2", y(avg));
-    // on narrow screens the average label moves to the top-left corner so it does not collide with bubbles
-    av.select("text").attr("class", "muted num").attr("font-size", 11.5).attr("text-anchor", narrow ? "start" : "end").attr("x", narrow ? m.left + 8 : W - m.right)
-      .transition().duration(dur).attr("y", narrow ? m.top + 16 : y(avg) - 6).text(narrow ? `- - average stay ${avg.toFixed(1)} days` : `average stay ${avg.toFixed(1)} days`);
 
     // quadrant hints
     svg.select(".quad").selectAll("text").data([
@@ -113,23 +110,90 @@
       `<span class="n">${RC.fmt(d.bed)}</span> bed days in total, 2016–21` +
       (d.male !== null ? `<br><span class="n">${d.male.toFixed(0)}%</span> male` : ""));
 
-    // labels: every age group; road users only when large or severe
+    /* ---------- collision-free labels ----------
+       Every bubble, the quadrant hints and the average-line label are obstacles.
+       Each label tries 8 spots around its bubble, then the same spots further out
+       (with a thin leader line), and takes the spot with the least overlap. */
+    const fs = narrow ? 10.5 : 12, pad = 3;
+    const circles = rows.map((d) => ({ x: x(d.perYear), y: y(d.bdpc), r: Math.max(3, r(d.bed)) }));
+    const bounds = { x0: m.left + 2, x1: W - m.right, y0: m.top, y1: H - m.bottom - 2 };
+    const measure = svg.append("text").attr("font-size", fs).style("visibility", "hidden");
+    const textW = (t, cls = "halo") => { measure.attr("class", cls).text(t); return measure.node().getComputedTextLength(); };
+    const boxes = [];
+    svg.select(".quad").selectAll("text").each(function () { const b = this.getBBox(); boxes.push({ x: b.x - pad, y: b.y - pad, w: b.width + 2 * pad, h: b.height + 2 * pad }); });
+
+    const hitCircle = (bx, c) => {
+      const cx = Math.max(bx.x, Math.min(c.x, bx.x + bx.w)), cy = Math.max(bx.y, Math.min(c.y, bx.y + bx.h));
+      const dx = c.x - cx, dy = c.y - cy, rr = c.r + 2;
+      return dx * dx + dy * dy < rr * rr ? Math.min(bx.w, bx.h) * (rr - Math.sqrt(dx * dx + dy * dy)) + 1 : 0;
+    };
+    const hitBox = (p, q) => Math.max(0, Math.min(p.x + p.w, q.x + q.w) - Math.max(p.x, q.x)) * Math.max(0, Math.min(p.y + p.h, q.y + q.h) - Math.max(p.y, q.y));
+    const outside = (bx) => Math.max(0, bounds.x0 - bx.x) + Math.max(0, bx.x + bx.w - bounds.x1) + Math.max(0, bounds.y0 - bx.y) + Math.max(0, bx.y + bx.h - bounds.y1);
+    const cost = (bx, skip) => {
+      let c = outside(bx) * 1000;
+      circles.forEach((ci, i) => { if (i !== skip) c += hitCircle(bx, ci) * 10; });
+      boxes.forEach((o) => { c += hitBox(bx, o) * 10; });
+      return c;
+    };
+
+    // 1. average-stay label: try both ends of the line, above then below
+    const avText = `average stay ${avg.toFixed(1)} days`, avW = textW(avText, "muted num halo"), ay = y(avg);
+    // candidate spots: every 8px along the line, above and below; right end preferred
+    const avOpts = [];
+    for (let lx = W - m.right - avW; lx >= m.left + 8; lx -= 8)
+      [ay - fs - 4, ay + 4].forEach((ly, k) => avOpts.push({ x: lx - pad, y: ly - pad, w: avW + 2 * pad, h: fs + 2 * pad, t: avText, pref: (W - m.right - avW - lx) / 400 + k * 0.2 }));
+    // fallback when the line is crowded: a small key in an empty spot near the top
+    const keyText = "- - " + avText, keyW = textW(keyText, "muted num halo");
+    for (let lx = W - m.right - keyW; lx >= m.left + 8; lx -= 8)
+      [m.top + 2, m.top + fs + 8].forEach((ly, k) => avOpts.push({ x: lx - pad, y: ly - pad, w: keyW + 2 * pad, h: fs + 2 * pad, t: keyText, pref: 20 + k }));
+    let avBest = avOpts[0], avCost = Infinity;
+    avOpts.forEach((o) => { const c = cost(o, -1) + o.pref; if (c < avCost) { avCost = c; avBest = o; } });
+    boxes.push(avBest);
+    av.select("text").attr("class", "muted num halo").attr("font-size", fs).attr("text-anchor", "start")
+      .attr("x", avBest.x + pad).text(avBest.t)
+      .transition().duration(dur).attr("y", avBest.y + pad + fs - 2);
+
+    // 2. bubble labels, biggest bubbles first
     const showLabel = (d) => mode === "age" || (narrow ? d.perYear > 6000 || d.bdpc > 7.5 : d.perYear > 1500 || d.bdpc > 7.5);
-    const lbl = svg.select(".lbl").selectAll("text").data(rows.filter(showLabel), key).join(
+    const name = (d) => (mode === "age" ? "Age " + d.name : d.name.replace("Car unknown position", "Car, unknown position"));
+    const placed = new Map();
+    rows.map((d, i) => ({ d, i })).filter((o) => showLabel(o.d)).sort((a, b) => b.d.bed - a.d.bed).forEach(({ d, i }) => {
+      const c = circles[i], t = `${name(d)}  ${d.bdpc.toFixed(1)}`, w = textW(t), h = fs;
+      let best = null, bestCost = Infinity;
+      [6, 22, 44].forEach((gap, ring) => {
+        // angle order: right, left, above, below, then the diagonals
+        [0, 180, -90, 90, -35, 35, -145, 145].forEach((deg) => {
+          const a = (deg * Math.PI) / 180, ex = c.x + Math.cos(a) * (c.r + gap), ey = c.y + Math.sin(a) * (c.r + gap);
+          const lx = Math.cos(a) > 0.3 ? ex : Math.cos(a) < -0.3 ? ex - w : ex - w / 2;
+          const ly = Math.sin(a) > 0.3 ? ey : Math.sin(a) < -0.3 ? ey - h : ey - h / 2;
+          const bx = { x: lx - pad, y: ly - pad, w: w + 2 * pad, h: h + 2 * pad };
+          const k = cost(bx, i) + ring * 4 + (Math.abs(deg) % 180 ? 1 : 0);
+          if (k < bestCost) { bestCost = k; best = { bx, ex, ey, ring, a }; }
+        });
+      });
+      boxes.push(best.bx);
+      placed.set(d.name, { t, ...best, c });
+    });
+    measure.remove();
+
+    const lab = rows.filter(showLabel);
+    const leaders = svg.select(".lbl").selectAll("line").data(lab.filter((d) => placed.get(d.name).ring > 0), key).join("line")
+      .style("stroke", RC.css("--muted")).attr("stroke-width", 1).attr("pointer-events", "none");
+    leaders.each(function (d) {
+      const p = placed.get(d.name);
+      d3.select(this)
+        .attr("x1", p.c.x + Math.cos(p.a) * (p.c.r + 1)).attr("y1", p.c.y + Math.sin(p.a) * (p.c.r + 1))
+        .attr("x2", p.c.x + Math.cos(p.a) * (p.c.r + 22 * p.ring + 2)).attr("y2", p.c.y + Math.sin(p.a) * (p.c.r + 22 * p.ring + 2));
+    });
+    const lbl = svg.select(".lbl").selectAll("text").data(lab, key).join(
       (en) => en.append("text").style("opacity", 0),
       (u) => u,
       (ex) => ex.remove());
-    lbl.attr("font-size", narrow ? 10.5 : 12).attr("pointer-events", "none")
-      .each(function (d) {
-        const rr = Math.max(3, r(d.bed)), right = x(d.perYear) + rr + 6 + 90 < W;
-        // narrow screens: label sits above the bubble; wide screens: beside it
-        if (narrow) d3.select(this).attr("text-anchor", "middle").attr("data-x", Math.min(W - 40, Math.max(m.left + 40, x(d.perYear)))).attr("data-dy", -rr - 5);
-        else d3.select(this).attr("text-anchor", right ? "start" : "end").attr("data-x", right ? x(d.perYear) + rr + 5 : x(d.perYear) - rr - 5).attr("data-dy", 4);
-      })
-      .text((d) => (mode === "age" ? "Age " + d.name : d.name.replace("Car unknown position", "Car, unknown position")) + `  ${d.bdpc.toFixed(1)}`)
+    lbl.attr("class", "halo").attr("font-size", fs).attr("pointer-events", "none").attr("text-anchor", "start")
+      .text((d) => placed.get(d.name).t)
       .transition().duration(dur)
       .style("opacity", 1)
-      .attr("x", function () { return +this.getAttribute("data-x"); })
-      .attr("y", function (d) { return y(d.bdpc) + +this.getAttribute("data-dy"); });
+      .attr("x", (d) => placed.get(d.name).bx.x + pad)
+      .attr("y", (d) => placed.get(d.name).bx.y + pad + fs - 2);
   }
 })();

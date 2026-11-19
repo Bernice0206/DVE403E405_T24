@@ -137,14 +137,24 @@
       .transition().duration(dur)
       .attr("x1", (d) => d.x1).attr("x2", (d) => d.x2).attr("y1", (d) => y(d.v)).attr("y2", (d) => y(d.v));
 
-    // value labels
-    svg.select(".labels").selectAll("text").data(data, (d) => d.key)
+    // value labels: centred over each bar; if one would touch its neighbour, it moves up a line
+    const fsV = narrow ? 10 : 11.5;
+    const vl = svg.select(".labels").selectAll("text").data(data, (d) => d.key)
       .join((en) => en.append("text").attr("x", (d) => x(d.key) + x.bandwidth() / 2).attr("y", (d) => yy(Math.max(d.y0, d.y1)) - 6))
-      .attr("text-anchor", "middle").attr("class", "num").attr("font-size", narrow ? 10 : 11.5)
-      .text((d) => (d.kind === "total" ? RC.fmt(d.value) : RC.signed(d.delta)))
-      .transition().duration(dur)
+      .attr("text-anchor", "middle").attr("class", "num halo").attr("font-size", fsV)
+      .text((d) => (d.kind === "total" ? RC.fmt(d.value) : RC.signed(d.delta)));
+    const placedV = [];
+    vl.each(function (d) {
+      const w = this.getComputedTextLength(), cx = x(d.key) + x.bandwidth() / 2;
+      let ty = yy(Math.max(d.y0, d.y1)) - 6;
+      const clash = (yv) => placedV.some((p) => Math.abs(p.cx - cx) < (p.w + w) / 2 + 4 && Math.abs(p.y - yv) < fsV + 2);
+      while (clash(ty)) ty -= fsV + 3;
+      placedV.push({ cx, w, y: ty });
+      d.__ly = ty;
+    });
+    vl.transition().duration(dur)
       .attr("x", (d) => x(d.key) + x.bandwidth() / 2)
-      .attr("y", (d) => yy(Math.max(d.y0, d.y1)) - 6);
+      .attr("y", (d) => d.__ly);
 
     // x labels (rotated short names on narrow screens)
     const xl = svg.select(".axis.x").selectAll("g").data(data, (d) => d.key)

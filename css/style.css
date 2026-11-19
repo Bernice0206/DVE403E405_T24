@@ -1,3 +1,4 @@
+/* Layout: single narrative column (~66ch) with chart stages that widen to 1120px; sticky chapter nav. */
 :root {
   --paper: #f1f3f4;
   --surface: #ffffff;
@@ -191,7 +192,12 @@ select {
 footer { border-top: 1px solid var(--rule); padding-block: 24px 40px; font-family: var(--font-display); font-size: var(--step--1); color: var(--muted); }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
 
-
+/* entrance: content is visible at rest; in-view only adds a short emphasis */
 @keyframes pulse-outline { 0% { stroke-width: 2.5; } 50% { stroke-width: 5; } 100% { stroke-width: 2.5; } }
 .in-view .callout-mark { animation: pulse-outline 1.2s ease-in-out 2; }
 @media (prefers-reduced-motion: reduce) { .in-view .callout-mark { animation: none; } }
+
+/* Chart labels get a thin outline in the page colour so they stay readable over gridlines and bubbles */
+svg text.halo { paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+svg text.halo:not(.muted) { fill: var(--ink); }
+
